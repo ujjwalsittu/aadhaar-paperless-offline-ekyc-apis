@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/configs"
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/pkg/logger"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/configs"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/pkg/logger"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
