@@ -3,7 +3,7 @@ package service
 import (
 	"errors"
 
-	api "github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/pkg/api/v1"
+	api "github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/pkg/api/v1"
 	"go.uber.org/zap"
 )
 

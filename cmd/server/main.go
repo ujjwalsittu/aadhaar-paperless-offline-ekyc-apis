@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/internal/appconfig"
-	cmd "github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/internal/cmd/server"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/internal/appconfig"
+	cmd "github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/internal/cmd/server"
 )
 
 var gitCommit, gitTag string

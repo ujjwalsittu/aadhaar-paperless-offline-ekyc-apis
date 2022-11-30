@@ -1,9 +1,9 @@
 package appconfig
 
 import (
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/internal/aadhaarcache"
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/pkg/logger"
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/pkg/service/v1"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/internal/aadhaarcache"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/pkg/logger"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/pkg/service/v1"
 	"github.com/go-redis/redis/v8"
 	"go.uber.org/zap"
 )

@@ -1,4 +1,4 @@
-module github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis
+module github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis
 
 // +heroku goVersion go1.17.2
 go 1.17
@@ -32,7 +32,7 @@ require (
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.0 // indirect
-	github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/pkg/aadhaarapi v0.0.0-20211106154550-f85271df72ba // indirect
+	github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/pkg/aadhaarapi v0.0.0-20211106154550-f85271df72ba // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect

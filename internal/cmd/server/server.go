@@ -8,9 +8,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/internal/appconfig"
-	grpcServer "github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/pkg/protocol/grpc"
-	"github.com/aaabhilash97/aadhaar-paperless-offline-ekyc-apis/pkg/protocol/rest"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/internal/appconfig"
+	grpcServer "github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/pkg/protocol/grpc"
+	"github.com/ujjwalsittu/aadhaar-paperless-offline-ekyc-apis/pkg/protocol/rest"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )
