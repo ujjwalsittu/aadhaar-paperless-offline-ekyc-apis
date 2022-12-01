@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: okyc-finteck
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: okyc-finteck
+  template:
+    metadata:
+      labels:
+        app: okyc-finteck
+    spec:
+      containers:
+      - name: okyc
+        image: finteckokyc.azurecr.io/okyc-finteck
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3333
